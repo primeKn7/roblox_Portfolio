@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime — Roblox Developer</title>
+    <meta
+      name="description"
+      content="Portfolio de Prime, développeur Roblox. Systèmes de combat, mouvement, armes et plus."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="#home" class="nav__link nav__link--active">Home</a>
+        <a href="#works" class="nav__link">Works</a>
+        <a href="#pricing" class="nav__link">Pricing</a>
+        <a href="#about" class="nav__link">About</a>
+      </nav>
+      <button
+        class="nav-toggle"
+        aria-label="Ouvrir le menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero__inner">
+          <p class="status">
+            <span class="status__line" aria-hidden="true"></span>
+            <span class="status__dot" aria-hidden="true"></span>
+            Roblox Developer — Open for work
+          </p>
+
+          <h1 class="hero__title">
+            <span>Building </span>
+            <span>gameplay systems</span>
+          </h1>
+
+          <p class="hero__subtitle">
+            Custom Luau systems for Roblox — combat, movement, weapons, and
+            more.<br />
+            Clean structure, smooth gameplay, fair pricing.
+          </p>
+
+          <div class="stats" role="list">
+            <div class="stats__item" role="listitem">
+              <span class="stats__value">5</span>
+              <span class="stats__label">Projects shown</span>
+            </div>
+            <div class="stats__item" role="listitem">
+              <span class="stats__value">1yr</span>
+              <span class="stats__label">Scripting</span>
+            </div>
+            <div class="stats__item" role="listitem">
+              <span class="stats__value">$7</span>
+              <span class="stats__label">Starting rate</span>
+            </div>
+          </div>
+
+          <div class="hero__actions">
+            <a href="#works" class="btn btn--primary">View Work</a>
+            <a href="#pricing" class="btn btn--outline">See Pricing</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="works" class="section works">
+        <div class="section__inner">
+          <p class="section__eyebrow">Portfolio</p>
+          <h2 class="section__title">Past Works</h2>
+          <p class="section__lead">
+            A selection of systems I've built and recorded — movement, combat,
+            weapons, and AI.
+          </p>
+
+          <div class="works-grid">
+            <article class="work-card">
+              <div class="work-card__media">
+                <iframe
+                  src="https://www.youtube.com/embed/AMjC-_T2sjk"
+                  title="Movement System"
+                  loading="lazy"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                  "
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="work-card__body">
+                <h3 class="work-card__title">Movement System</h3>
+                <p class="work-card__desc">
+                  Basic movement system with dash, slide, wallrun and double and
+                  super jumping.
+                </p>
+                <div class="work-card__tags">
+                  <span>movement</span>
+                </div>
+                <a
+                  href="https://youtu.be/AMjC-_T2sjk"
+                  class="work-card__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Watch on YouTube ↗
+                </a>
+              </div>
+            </article>
+
+            <article class="work-card">
+              <div class="work-card__media">
+                <iframe
+                  src="https://www.youtube.com/embed/ix5t2AdqpjI"
+                  title="Basic Simulator"
+                  loading="lazy"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                  "
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="work-card__body">
+                <h3 class="work-card__title">Basic Simulator</h3>
+                <p class="work-card__desc">
+                  Basic collect-sell and upgrade gameplay loop.
+                </p>
+                <div class="work-card__tags">
+                  <span>Simulator</span>
+                  <span>Progression</span>
+                  <span>UI</span>
+                </div>
+                <a
+                  href="https://www.youtube.com/watch?v=ix5t2AdqpjI"
+                  class="work-card__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Watch on YouTube ↗
+                </a>
+              </div>
+            </article>
+
+            <article class="work-card">
+              <div class="work-card__media">
+                <iframe
+                  src="https://www.youtube.com/embed/cEYcIcd6WbI"
+                  title="Gun System"
+                  loading="lazy"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                  "
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="work-card__body">
+                <h3 class="work-card__title">Gun System</h3>
+                <p class="work-card__desc">
+                  Ranged combat with shooting mechanics, hit detection, and
+                  weapon handling ready to extend.
+                </p>
+                <div class="work-card__tags">
+                  <span>Combat</span>
+                  <span>Ranged</span>
+                  <span>Weapons</span>
+                </div>
+                <a
+                  href="https://youtu.be/cEYcIcd6WbI"
+                  class="work-card__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Watch on YouTube ↗
+                </a>
+              </div>
+            </article>
+
+            <article class="work-card">
+              <div class="work-card__media">
+                <iframe
+                  src="https://www.youtube.com/embed/xc7yo-NqqcA"
+                  title="Fight System"
+                  loading="lazy"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                  "
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="work-card__body">
+                <h3 class="work-card__title">Fight System</h3>
+                <p class="work-card__desc">
+                  Melee combat framework with combos, hit feedback.
+                </p>
+                <div class="work-card__tags">
+                  <span>Combat</span>
+                  <span>Melee</span>
+                  <span>Combo</span>
+                </div>
+                <a
+                  href="https://youtu.be/xc7yo-NqqcA"
+                  class="work-card__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Watch on YouTube ↗
+                </a>
+              </div>
+            </article>
+
+            <article class="work-card">
+              <div class="work-card__media">
+                <iframe
+                  src="https://www.youtube.com/embed/uW_VwD4Rnf8"
+                  title="BattleBeast NPC"
+                  loading="lazy"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                  "
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="work-card__body">
+                <h3 class="work-card__title">BattleBeast-Style NPC</h3>
+                <p class="work-card__desc">
+                  AI opponent inspired by BattleBeast, reusing the fight system
+                  logic for attacks and behavior.
+                </p>
+                <div class="work-card__tags">
+                  <span>AI</span>
+                  <span>NPC</span>
+                  <span>Combat</span>
+                </div>
+                <a
+                  href="https://www.youtube.com/watch?v=uW_VwD4Rnf8"
+                  class="work-card__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Watch on YouTube ↗
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section pricing">
+        <div class="section__inner">
+          <p class="section__eyebrow">Rates</p>
+          <h2 class="section__title">Pricing</h2>
+          <p class="section__lead">
+            Flexible by scope. Billed per task — dev hours, not calendar time.
+            Reach out for a quote on bigger systems.
+          </p>
+
+          <div class="pricing-grid pricing-grid--two">
+            <article class="pricing-card">
+              <p class="pricing-card__tier">Simple Systems</p>
+              <p class="pricing-card__price">$7<span> min</span></p>
+              <p class="pricing-card__alt">
+                or 2,000 Robux <small>(not including taxes)</small>
+              </p>
+              <ul class="pricing-card__list">
+                <li>Shops, leaderboards, small mechanics</li>
+                <li>Add-ons to existing systems</li>
+                <li>Quick fixes and single features</li>
+              </ul>
+            </article>
+
+            <article class="pricing-card pricing-card--featured">
+              <p class="pricing-card__tier">Scaled</p>
+              <p class="pricing-card__price">Varies</p>
+              <p class="pricing-card__alt">Based on difficulty &amp; time</p>
+              <ul class="pricing-card__list">
+                <li>Inventory, trading, combat frameworks</li>
+                <li>Movement, weapons, or multi-part systems</li>
+                <li>Anything that takes longer or gets more complex</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="section__inner about__layout">
+          <div class="about__intro">
+            <h2 class="about__name">
+              <span>My name</span>
+              <span>is Prime.</span>
+            </h2>
+            <p class="about__bio">
+              I've been scripting on Roblox for about a year. Most of my work is
+              combat, movement, and the kind of systems you can see in the
+              videos above.
+            </p>
+
+            <div class="about__skills">
+              <h3 class="about__skills-title">Skills</h3>
+              <div class="skills-tags">
+                <span>Combat</span>
+                <span>Movement</span>
+                <span>Weapons</span>
+                <span>AI / NPC</span>
+                <span>Simulators</span>
+                <span>Luau</span>
+              </div>
+              <p class="about__limits">
+                <strong>Can not offer:</strong> any type of vehicle system —
+                that's outside what I can deliver right now.
+              </p>
+            </div>
+          </div>
+
+          <div class="about__reasons">
+            <h3 class="about__reasons-title">Why work with me</h3>
+
+            <ul class="reasons-list">
+              <li class="reasons-list__item">
+                <span class="reasons-list__marker" aria-hidden="true">▸</span>
+                <div>
+                  <strong>Regular progress updates</strong>
+                  I'll keep you posted on where your task is at — no going quiet
+                  mid-commission.
+                </div>
+              </li>
+              <li class="reasons-list__item">
+                <span class="reasons-list__marker" aria-hidden="true">▸</span>
+                <div>
+                  <strong>Good bang for your buck</strong>
+                  Solid work at prices that stay reasonable, especially on
+                  smaller systems.
+                </div>
+              </li>
+              <li class="reasons-list__item">
+                <span class="reasons-list__marker" aria-hidden="true">▸</span>
+                <div>
+                  <strong>Honest pricing</strong>
+                  Clear starting rates for simple tasks; bigger jobs priced from
+                  the scope we agree on.
+                </div>
+              </li>
+              <li class="reasons-list__item">
+                <span class="reasons-list__marker" aria-hidden="true">▸</span>
+                <div>
+                  <strong>Built to extend</strong>
+                  Modular structure so you can add moves, weapons, or features
+                  without rewriting everything.
+                </div>
+              </li>
+            </ul>
+
+            <p class="about__contact">
+              Contact: <a href="#">prime1ms on Discord</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Prime — Roblox Developer</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
